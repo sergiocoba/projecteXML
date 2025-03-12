@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,7 +15,7 @@ using System.Xml.XPath;
 
 namespace PracticaXML
 {
-    public partial class Form1 : Form
+    public partial class FrmMain : Form
     {
         private OpenFileDialog openFileDialog;
         static XPathDocument document;
@@ -23,7 +25,7 @@ namespace PracticaXML
         XmlNode xNodeArrel;
         XmlDeclaration xDeclaracio;
         XmlComment xComentari;
-        public Form1()
+        public FrmMain()
         {
             InitializeComponent();
         }
@@ -39,8 +41,8 @@ namespace PracticaXML
                 document = new XPathDocument(openFileDialog.FileName);
                 tbArchivo.Text = openFileDialog.FileName;
                 navegador = document.CreateNavigator();
-                //consultaObsequis(0);
             }
+            rbDepartament.Checked = true;
         }
 
 
@@ -50,7 +52,7 @@ namespace PracticaXML
             XPathExpression expr = navegador.Compile("//row//row");
 
             expr.AddSort("obsequi", XmlSortOrder.Ascending, XmlCaseOrder.None, "", XmlDataType.Text);
-            llMunicipis.Items.Clear();
+            llObsequis.Items.Clear();
             cursor = navegador.Select(expr);
 
             List<string> obsequisExistents = new List<string>();
@@ -116,14 +118,13 @@ namespace PracticaXML
             
         }
 
-
+        
         private void omplirListBox(int opcio)
         {
             XPathNodeIterator cursor = null;
             XPathExpression expr = navegador.Compile("//row//row");
-
             expr.AddSort("obsequi", XmlSortOrder.Ascending, XmlCaseOrder.None, "", XmlDataType.Text);
-            llMunicipis.Items.Clear();
+            llObsequis.Items.Clear();
             cursor = navegador.Select(expr);
 
             List<string> obsequisExistents = new List<string>();
@@ -138,7 +139,7 @@ namespace PracticaXML
                     string obsequi = tut.SelectSingleNode("obsequi").Value.ToString();
                     if (tut.SelectSingleNode("categor_a_obsequi").Value.ToString() == comboBox.SelectedItem.ToString() && !obsequisExistents.Contains(obsequi))
                     {
-                        llMunicipis.Items.Add(obsequi);
+                        llObsequis.Items.Add(obsequi);
                         obsequisExistents.Add(obsequi);
                     }
                 }
@@ -150,7 +151,7 @@ namespace PracticaXML
                     string obsequi = tut.SelectSingleNode("obsequi").Value.ToString();
                     if (tut.SelectSingleNode("departament").Value.ToString() == comboBox.SelectedItem.ToString() && !obsequisExistents.Contains(obsequi))
                     {
-                        llMunicipis.Items.Add(obsequi);
+                        llObsequis.Items.Add(obsequi);
                         obsequisExistents.Add(obsequi);
                     }
                 }
@@ -162,7 +163,7 @@ namespace PracticaXML
                     string obsequi = tut.SelectSingleNode("obsequi").Value.ToString();
                     if (tut.SelectSingleNode("unitat_org_nica").Value.ToString() == comboBox.SelectedItem.ToString() && !obsequisExistents.Contains(obsequi))
                     {
-                        llMunicipis.Items.Add(obsequi);
+                        llObsequis.Items.Add(obsequi);
                         obsequisExistents.Add(obsequi);
                     }
                 }
@@ -203,6 +204,148 @@ namespace PracticaXML
                     omplirComboBox(2);
                     break;
             }
+        }
+        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int i = 0;
+            dgvMunicipis.Rows.Clear();
+
+            if (rbDepartament.Checked == true)
+            {
+                while (i < llObsequis.SelectedItems.Count)
+                {
+                    string obsequi = llObsequis.SelectedItems[i].ToString();
+
+                    obtenirDadesObsequisPerDep(obsequi, dateDesde.Value, dateFins.Value);
+                    i++;
+                }
+            }
+            else if (rbUnitat.Checked == true)
+            {
+                while (i < llObsequis.SelectedItems.Count)
+                {
+                    string obsequi = llObsequis.SelectedItems[i].ToString();
+
+                    obtenirDadesObsequisPerUnidad(obsequi, dateDesde.Value, dateFins.Value);
+                    i++;
+                }
+            }
+            else
+            {
+                while (i < llObsequis.SelectedItems.Count)
+                {
+                    string obsequi = llObsequis.SelectedItems[i].ToString();
+
+                    obtenirDadesObsequis(obsequi, dateDesde.Value,dateFins.Value);
+                    i++;
+                }
+            }
+
+           
+        }
+
+        private void obtenirDadesObsequisPerUnidad(string m, DateTime dataMin, DateTime dataMax)
+        {
+            XPathNodeIterator cursor = null;
+            XPathExpression expr = navegador.Compile("//row//row");
+
+            expr.AddSort("obsequi", XmlSortOrder.Ascending, XmlCaseOrder.None, "", XmlDataType.Text);
+            cursor = navegador.Select(expr);
+
+
+            foreach (XPathNavigator tut in cursor)
+            {
+                string obsequi = tut.SelectSingleNode("obsequi").Value;
+                DateTime fecha = DateTime.Parse(tut.SelectSingleNode("data").Value.ToString());
+                string unidad = tut.SelectSingleNode("unitat_org_nica").Value;
+
+                if (obsequi == m && fecha >= dataMin && fecha <= dataMax && unidad == comboBox.Text.Trim())
+                {
+                    DataGridViewRow row = new DataGridViewRow();
+                    row.CreateCells(dgvMunicipis);
+                    row.Cells[0].Value = tut.SelectSingleNode("departament").Value;
+                    row.Cells[1].Value = obsequi;
+                    row.Cells[2].Value = fecha;
+                    row.Cells[3].Value = tut.SelectSingleNode("lliurat_per").Value;
+                    row.Cells[4].Value = tut.SelectSingleNode("rebut_per").Value;
+                    row.Cells[5].Value = tut.SelectSingleNode("destinat_a").Value;
+
+                    dgvMunicipis.Rows.Add(row);
+
+
+                }
+            }
+        }
+
+        private void obtenirDadesObsequis(string m, DateTime dataMin,DateTime dataMax)
+        {
+            XPathNodeIterator cursor = null;
+            XPathExpression expr = navegador.Compile("//row//row");
+
+            expr.AddSort("obsequi", XmlSortOrder.Ascending, XmlCaseOrder.None, "", XmlDataType.Text);
+            cursor = navegador.Select(expr);
+
+            foreach (XPathNavigator tut in cursor)
+            {
+                string obsequi = tut.SelectSingleNode("obsequi").Value;
+                DateTime fecha = DateTime.Parse(tut.SelectSingleNode("data").Value.ToString());
+
+
+                if (obsequi == m && fecha >= dataMin && fecha<=dataMax)
+                {
+                    DataGridViewRow row = new DataGridViewRow();
+                    row.CreateCells(dgvMunicipis);
+                    row.Cells[0].Value = tut.SelectSingleNode("departament").Value;
+                    row.Cells[1].Value = obsequi;
+                    row.Cells[2].Value = fecha;
+                    row.Cells[3].Value = tut.SelectSingleNode("lliurat_per").Value;
+                    row.Cells[4].Value = tut.SelectSingleNode("rebut_per").Value;
+                    row.Cells[5].Value = tut.SelectSingleNode("destinat_a").Value;
+
+                    dgvMunicipis.Rows.Add(row);
+
+                    
+                }
+            }
+        } 
+        
+        private void obtenirDadesObsequisPerDep(string m, DateTime dataMin, DateTime dataMax)
+        {
+            XPathNodeIterator cursor = null;
+            XPathExpression expr = navegador.Compile("//row//row");
+
+            expr.AddSort("obsequi", XmlSortOrder.Ascending, XmlCaseOrder.None, "", XmlDataType.Text);
+            cursor = navegador.Select(expr);
+
+            
+            foreach (XPathNavigator tut in cursor)
+            {
+                string obsequi = tut.SelectSingleNode("obsequi").Value;
+                DateTime fecha = DateTime.Parse(tut.SelectSingleNode("data").Value.ToString());
+                string dep = tut.SelectSingleNode("departament").Value;
+
+                if (obsequi == m && fecha >= dataMin && fecha <= dataMax && dep == comboBox.Text.Trim())
+                {
+                    DataGridViewRow row = new DataGridViewRow();
+                    row.CreateCells(dgvMunicipis);
+                    row.Cells[0].Value = tut.SelectSingleNode("departament").Value;
+                    row.Cells[1].Value = obsequi;
+                    row.Cells[2].Value = fecha;
+                    row.Cells[3].Value = tut.SelectSingleNode("lliurat_per").Value;
+                    row.Cells[4].Value = tut.SelectSingleNode("rebut_per").Value;
+                    row.Cells[5].Value = tut.SelectSingleNode("destinat_a").Value;
+                   
+                    dgvMunicipis.Rows.Add(row);
+
+
+                }
+            }
+        }
+
+        private void dgvMunicipis_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

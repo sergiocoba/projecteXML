@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|c:\\users\\sergio\\documents\\github\\projectexml\\practicaxml\\practicaxml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|solutionrelative:practicaxml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|c:\\users\\sergio\\documents\\github\\projectexml\\practicaxml\\practicaxml\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|solutionrelative:practicaxml\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\practicaxml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|solutionrelative:practicaxml\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|c:\\users\\sergio\\documents\\github\\projectexml\\practicaxml\\practicaxml\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|solutionrelative:practicaxml\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\practicaxml\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|solutionrelative:practicaxml\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|c:\\users\\sergio\\documents\\github\\projectexml\\practicaxml\\practicaxml\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F373185-ED2B-4BC1-A1CE-8C36998ADEE2}|PracticaXML\\PracticaXML.csproj|solutionrelative:practicaxml\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,40 +37,46 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "PracticaXML\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\Form1.Designer.cs",
-              "RelativeToolTip": "PracticaXML\\Form1.Designer.cs",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAMwF4BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T21:57:33.945Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\Form1.cs",
-              "RelativeDocumentMoniker": "PracticaXML\\Form1.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\Form1.cs",
-              "RelativeToolTip": "PracticaXML\\Form1.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAjwCoAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FrmMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.Designer.cs",
+              "RelativeDocumentMoniker": "PracticaXML\\FrmMain.Designer.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.Designer.cs",
+              "RelativeToolTip": "PracticaXML\\FrmMain.Designer.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAwIkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:57:33.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs",
+              "RelativeDocumentMoniker": "PracticaXML\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs",
+              "RelativeToolTip": "PracticaXML\\FrmMain.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAApwCwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T15:29:45.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\Form1.cs",
-              "RelativeDocumentMoniker": "PracticaXML\\Form1.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Desktop\\DAM\\DAM2\\M6\\UF3\\Practica\\PracticaXML\\PracticaXML\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\DAM\\DAM2\\M6\\UF3\\Practica\\PracticaXML\\PracticaXML\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs",
+              "RelativeDocumentMoniker": "PracticaXML\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PracticaXML\\FrmMain.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T15:28:29.812Z"
+              "WhenOpened": "2025-03-10T15:28:29.812Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

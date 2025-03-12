@@ -8,3 +8,13 @@ C:\Users\Sergio\Desktop\DAM\DAM2\M6\UF3\Practica\PracticaXML\PracticaXML\obj\Deb
 C:\Users\Sergio\Desktop\DAM\DAM2\M6\UF3\Practica\PracticaXML\PracticaXML\obj\Debug\PracticaXML.csproj.CoreCompileInputs.cache
 C:\Users\Sergio\Desktop\DAM\DAM2\M6\UF3\Practica\PracticaXML\PracticaXML\obj\Debug\PracticaXML.exe
 C:\Users\Sergio\Desktop\DAM\DAM2\M6\UF3\Practica\PracticaXML\PracticaXML\obj\Debug\PracticaXML.pdb
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\bin\Debug\PracticaXML.exe.config
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\bin\Debug\PracticaXML.exe
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\bin\Debug\PracticaXML.pdb
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\obj\Debug\PracticaXML.csproj.AssemblyReference.cache
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\obj\Debug\PracticaXML.Properties.Resources.resources
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\obj\Debug\PracticaXML.csproj.GenerateResource.cache
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\obj\Debug\PracticaXML.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\obj\Debug\PracticaXML.exe
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\obj\Debug\PracticaXML.pdb
+C:\Users\Sergio\Documents\GitHub\projecteXML\PracticaXML\PracticaXML\obj\Debug\PracticaXML.FrmMain.resources
