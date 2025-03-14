@@ -83,8 +83,7 @@ namespace PracticaXML
                     }
 
                 }
-                nupAny.Maximum = dataMax;
-                nupAny.Minimum = dataMin;
+        
                 comboBox.SelectedIndex = 0;
             }
             else if (opcio == 1)
@@ -209,7 +208,7 @@ namespace PracticaXML
         private void button2_Click(object sender, EventArgs e)
         {
             int i = 0;
-            dgvMunicipis.Rows.Clear();
+            dgvObsequis.Rows.Clear();
 
             if (rbDepartament.Checked == true)
             {
@@ -263,7 +262,7 @@ namespace PracticaXML
                 if (obsequi == m && fecha >= dataMin && fecha <= dataMax && unidad == comboBox.Text.Trim())
                 {
                     DataGridViewRow row = new DataGridViewRow();
-                    row.CreateCells(dgvMunicipis);
+                    row.CreateCells(dgvObsequis);
                     row.Cells[0].Value = tut.SelectSingleNode("departament").Value;
                     row.Cells[1].Value = obsequi;
                     row.Cells[2].Value = fecha;
@@ -271,7 +270,7 @@ namespace PracticaXML
                     row.Cells[4].Value = tut.SelectSingleNode("rebut_per").Value;
                     row.Cells[5].Value = tut.SelectSingleNode("destinat_a").Value;
 
-                    dgvMunicipis.Rows.Add(row);
+                    dgvObsequis.Rows.Add(row);
 
 
                 }
@@ -295,7 +294,7 @@ namespace PracticaXML
                 if (obsequi == m && fecha >= dataMin && fecha<=dataMax)
                 {
                     DataGridViewRow row = new DataGridViewRow();
-                    row.CreateCells(dgvMunicipis);
+                    row.CreateCells(dgvObsequis);
                     row.Cells[0].Value = tut.SelectSingleNode("departament").Value;
                     row.Cells[1].Value = obsequi;
                     row.Cells[2].Value = fecha;
@@ -303,7 +302,7 @@ namespace PracticaXML
                     row.Cells[4].Value = tut.SelectSingleNode("rebut_per").Value;
                     row.Cells[5].Value = tut.SelectSingleNode("destinat_a").Value;
 
-                    dgvMunicipis.Rows.Add(row);
+                    dgvObsequis.Rows.Add(row);
 
                     
                 }
@@ -328,7 +327,7 @@ namespace PracticaXML
                 if (obsequi == m && fecha >= dataMin && fecha <= dataMax && dep == comboBox.Text.Trim())
                 {
                     DataGridViewRow row = new DataGridViewRow();
-                    row.CreateCells(dgvMunicipis);
+                    row.CreateCells(dgvObsequis);
                     row.Cells[0].Value = tut.SelectSingleNode("departament").Value;
                     row.Cells[1].Value = obsequi;
                     row.Cells[2].Value = fecha;
@@ -336,7 +335,7 @@ namespace PracticaXML
                     row.Cells[4].Value = tut.SelectSingleNode("rebut_per").Value;
                     row.Cells[5].Value = tut.SelectSingleNode("destinat_a").Value;
                    
-                    dgvMunicipis.Rows.Add(row);
+                    dgvObsequis.Rows.Add(row);
 
 
                 }
@@ -344,6 +343,11 @@ namespace PracticaXML
         }
 
         private void dgvMunicipis_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvClubs_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
