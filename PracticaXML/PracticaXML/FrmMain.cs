@@ -61,20 +61,12 @@ namespace PracticaXML
             List<string> unitatsExistents = new List<string>();
 
 
-
-            int dataMax = 0;
-            int dataMin = 2024;
             if (opcio == 0)
             {
                 comboBox.Items.Clear();
 
                 foreach (XPathNavigator tut in cursor)
                 {
-                    //if (Int32.Parse(tut.SelectSingleNode("any").Value.ToString()) > dataMax) dataMax = Int32.Parse(tut.SelectSingleNode("any").Value.ToString());
-
-                    //if (Int32.Parse(tut.SelectSingleNode("any").Value.ToString()) < dataMin) dataMin = Int32.Parse(tut.SelectSingleNode("any").Value.ToString());
-
-
                     string categoria = tut.SelectSingleNode("categor_a_obsequi").Value.ToString();
                     if (!categoriaExistents.Contains(categoria))
                     {
@@ -342,14 +334,181 @@ namespace PracticaXML
             }
         }
 
-        private void dgvMunicipis_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btObsequis_Click(object sender, EventArgs e)
         {
+            dlg.InitialDirectory = Application.StartupPath;
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                if (System.IO.File.Exists(dlg.FileName))
+                {
+                    System.IO.File.Delete(dlg.FileName);
+                }
+                iniFitxerXML("Obsequis rebuts per alts carrecs","Obsequis");
+                consultaGenericaTitol(0);
+                fiFitxerXML("Fi de la llista");
+            }
+            
+
+        }
+        private void fiFitxerXML(String xcomentari)
+        {
+            xComentari = xDoc.CreateComment(xcomentari);
+            xDoc.InsertAfter(xComentari, xNodeArrel);
+
+            if (!dlg.FileName.ToLower().EndsWith(".xml"))
+            {
+                dlg.FileName += ".xml";
+            }
+            xDoc.Save(dlg.FileName);
+        }
+        private void iniFitxerXML(String xcomentari,string element)
+        {
+            xDoc = new XmlDocument();
+
+            xDeclaracio = xDoc.CreateXmlDeclaration("1.0", "utf-8", "yes");
+            xDoc.InsertBefore(xDeclaracio, xDoc.DocumentElement);
+
+            xComentari = xDoc.CreateComment(xcomentari);
+            xDoc.InsertAfter(xComentari, xDeclaracio);
+            
+            xNodeArrel = xDoc.CreateElement(element);
+            xDoc.AppendChild(xNodeArrel);
 
         }
 
-        private void dgvClubs_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void consultaGenericaTitol(int op)
         {
+            XPathNodeIterator cursor = null;
+            XPathExpression expr = navegador.Compile("//row//row");
 
+            expr.AddSort("obsequi", XmlSortOrder.Ascending, XmlCaseOrder.None, "", XmlDataType.Text);
+            cursor = navegador.Select(expr);
+
+
+            foreach (XPathNavigator tut in cursor)
+            {
+                afegirNodesXML(cursor,op);
+                  
+            }
+        }
+
+        private void afegirNodesXML(XPathNodeIterator xpn, int op)
+        {
+            String obsequi = "";
+            String departament = "";
+            String unitat = "";
+
+            XmlNode xmlNode = null;
+            XmlElement xmlElement = null;
+            List<string> obsequisExistents = new List<string>();
+            List<string> departamentsExistents = new List<string>();
+            List<string> unitatsExistents = new List<string>();
+
+
+
+            while (xpn.MoveNext())
+            {
+                if (op == 0)
+                {
+
+                    obsequi = xpn.Current.SelectSingleNode("obsequi").Value.ToString();
+
+                    if (!obsequisExistents.Contains(obsequi))
+                    {
+                        xmlElement = xDoc.CreateElement("obsequi");
+                        xmlElement.InnerText = obsequi;
+                        xNodeArrel.AppendChild(xmlElement);
+                        obsequisExistents.Add(obsequi);
+
+                    }
+                }
+                else if (op == 1)
+                {
+
+                    departament = xpn.Current.SelectSingleNode("departament").Value.ToString();
+
+                    if (!departamentsExistents.Contains(departament))
+                    {
+                        xmlElement = xDoc.CreateElement("departament");
+                        xmlElement.InnerText = departament;
+                        xNodeArrel.AppendChild(xmlElement);
+                        departamentsExistents.Add(departament);
+
+                    }
+                }
+                else if (op == 2)
+                {
+                    departament = xpn.Current.SelectSingleNode("departament").Value.ToString();
+                    unitat = xpn.Current.SelectSingleNode("unitat_org_nica").Value.ToString();
+
+                    XmlElement departamentElement = null;
+
+                    foreach (XmlNode node in xNodeArrel.ChildNodes)
+                    {
+                        if (node.Name == "departament" && node.Attributes["nom"].Value == departament)
+                        {
+                            departamentElement = (XmlElement)node;
+                            break;
+                        }
+                    }
+
+                    if (departamentElement == null)
+                    {
+                        departamentElement = xDoc.CreateElement("departament");
+                        departamentElement.SetAttribute("nom", departament);
+                        xNodeArrel.AppendChild(departamentElement);
+                        departamentsExistents.Add(departament);
+                    }
+
+                    bool unitatExisteix = false;
+                    foreach (XmlNode node in departamentElement.ChildNodes)
+                    {
+                        if (node.Name == "unitat_organica" && node.InnerText == unitat)
+                        {
+                            unitatExisteix = true;
+                            break;
+                        }
+                    }
+
+                    if (!unitatExisteix)
+                    {
+                        XmlElement unitatElement = xDoc.CreateElement("unitat_organica");
+                        unitatElement.InnerText = unitat;
+                        departamentElement.AppendChild(unitatElement);
+                        unitatsExistents.Add(unitat);
+                    }
+                }
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            dlg.InitialDirectory = Application.StartupPath;
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                if (System.IO.File.Exists(dlg.FileName))
+                {
+                    System.IO.File.Delete(dlg.FileName);
+                }
+                iniFitxerXML("Departaments","Departaments");
+                consultaGenericaTitol(1);
+                fiFitxerXML("Fi de la llista");
+            }
+        }
+
+        private void btUnitat_Click(object sender, EventArgs e)
+        {
+            dlg.InitialDirectory = Application.StartupPath;
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                if (System.IO.File.Exists(dlg.FileName))
+                {
+                    System.IO.File.Delete(dlg.FileName);
+                }
+                iniFitxerXML("Unitats Organiques", "Unitats_Organiques");
+                consultaGenericaTitol(2);
+                fiFitxerXML("Fi de la llista");
+            }
         }
     }
 }

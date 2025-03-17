@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Unitats Organiques-->
+<Unitats_Organiques>
+  <departament nom="Departament de Justícia">
+    <unitat_organica>Direcció General d'Afers Religiosos</unitat_organica>
+    <unitat_organica>Departament de Justícia</unitat_organica>
+    <unitat_organica>Direcció General de Dret, Entitats Jurídiques i Mediació</unitat_organica>
+    <unitat_organica>Direcció General de Serveis Penitenciaris</unitat_organica>
+    <unitat_organica>Direcció General de Modernització de l'Administració de Justícia</unitat_organica>
+    <unitat_organica>Centre d'Iniciatives per a la Reinserció (CIRE)</unitat_organica>
+    <unitat_organica>Direcció General de Dret i d'Entitats Jurídiques</unitat_organica>
+    <unitat_organica>Gabinet de la Consellera de Justícia</unitat_organica>
+    <unitat_organica>Memorial Democràtic</unitat_organica>
+    <unitat_organica>Centre d'Estudis Jurídics i Formació Especialitzada (CEJFE)</unitat_organica>
+    <unitat_organica>Direcció General de Memòria Democràtica</unitat_organica>
+    <unitat_organica>Serveis Territorials del Departament de Justícia a Tarragona</unitat_organica>
+    <unitat_organica>Direcció General d'Execució Penal a la Comunitat i de Justícia Juvenil</unitat_organica>
+  </departament>
+  <departament nom="Departament de Territori">
+    <unitat_organica>Departament de Territori</unitat_organica>
+    <unitat_organica>Secretaria de Mobilitat i Infraestructures</unitat_organica>
+    <unitat_organica>Gabinet Tècnic del Departament de Territori</unitat_organica>
+    <unitat_organica>Secretaria General de Territori</unitat_organica>
+    <unitat_organica>Direcció General d'Agenda i Renovació Urbana</unitat_organica>
+    <unitat_organica>Institut Cartogràfic i Geològic de Catalunya (ICGC)</unitat_organica>
+    <unitat_organica>Direcció General d'Ordenació del Territori, Urbanisme i Arquitectura</unitat_organica>
+    <unitat_organica>Infraestructures de la Generalitat de Catalunya, SAU</unitat_organica>
+    <unitat_organica>Direcció General d'Infraestructures de Mobilitat</unitat_organica>
+    <unitat_organica>Ferrocarrils de la Generalitat de Catalunya (FGC)</unitat_organica>
+    <unitat_organica>Serveis Territorials de Territori a Tarragona</unitat_organica>
+    <unitat_organica>Agència de l'Habitatge de Catalunya</unitat_organica>
+    <unitat_organica>Secretaria de Territori, Urbanisme i Agenda Urbana</unitat_organica>
+  </departament>
+  <departament nom="President de la Generalitat">
+    <unitat_organica>President de la Generalitat</unitat_organica>
+  </departament>
+  <departament nom="Departament de Justícia, Drets i Memòria">
+    <unitat_organica>Departament de Justícia, Drets i Memòria</unitat_organica>
+    <unitat_organica>Centre d'Estudis Jurídics i Formació Especialitzada (CEJFE)</unitat_organica>
+    <unitat_organica>Subdirecció General de Dret, Entitats Jurídiques i Protectorat</unitat_organica>
+    <unitat_organica>Secretaria per a l'Administració de Justícia</unitat_organica>
+    <unitat_organica>Gabinet de la Consellera de Justícia, Drets i Memòria</unitat_organica>
+    <unitat_organica>Direcció General de Dret, Entitats Jurídiques i Mediació</unitat_organica>
+    <unitat_organica>Subdirecció General de Formació i Recerca</unitat_organica>
+    <unitat_organica>Centre de Mediació de Catalunya</unitat_organica>
+  </departament>
+  <departament nom="Departament de Justícia i Qualitat Democràtica">
+    <unitat_organica>Departament de Justícia i Qualitat Democràtica</unitat_organica>
+    <unitat_organica>Gerència Territorial de Barcelona Ciutat i l'Hospitalet de Llobregat</unitat_organica>
+    <unitat_organica>Direcció General de Memòria Democràtica</unitat_organica>
+  </departament>
+  <departament nom="Departament de Polítiques Digitals i Administració Pública">
+    <unitat_organica>Departament de Polítiques Digitals i Administració Pública.</unitat_organica>
+    <unitat_organica>Departament de Polítiques Digitals i Administració Pública</unitat_organica>
+    <unitat_organica>Direcció General de Modernització i Innovació de l'Administració</unitat_organica>
+    <unitat_organica>Direcció General d'Administració Digital</unitat_organica>
+    <unitat_organica>Secretaria de Telecomunicacions, Ciberseguretat i Societat Digital</unitat_organica>
+    <unitat_organica>Secretaria General de Polítiques Digitals i Administració Pública</unitat_organica>
+    <unitat_organica>Secretaria d'Administració i Funció Pública</unitat_organica>
+  </departament>
+  <departament nom="Departament de Treball, Afers Socials i Famílies">
+    <unitat_organica>Servei Públic d'Ocupació de Catalunya (SOC)</unitat_organica>
+    <unitat_organica>Direcció General d'Economia Social, el Tercer Sector, les Cooperatives i l'Autoempresa</unitat_organica>
+    <unitat_organica>Departament de Treball, Afers Socials i Famílies</unitat_organica>
+    <unitat_organica>Secretaria d'Infància, Adolescència i Joventut</unitat_organica>
+    <unitat_organica>Direcció General de Protecció Social</unitat_organica>
+    <unitat_organica>Direcció General de Joventut</unitat_organica>
+    <unitat_organica>Direcció General d'Acció Cívica i Comunitària</unitat_organica>
+    <unitat_organica>Institut Català de l'Acolliment i de l'Adopció</unitat_organica>
+    <unitat_organica>Direcció General de la Inspecció de Treball</unitat_organica>
+    <unitat_organica>Direcció General d'Atenció a la Infància i l'Adolescència</unitat_organica>
+    <unitat_organica>Secretaria General de Treball, Afers Socials i Famílies</unitat_organica>
+    <unitat_organica>Secretaria d'Afers Socials i Famílies</unitat_organica>
+    <unitat_organica>Secretaria d'Igualtat, Migracions i Ciutadania</unitat_organica>
+    <unitat_organica>Direcció General de Relacions Laborals i Qualitat en el Treball</unitat_organica>
+    <unitat_organica>Direcció General de Serveis Socials</unitat_organica>
+  </departament>
+  <departament nom="Departament de Cultura">
+    <unitat_organica>Departament de Cultura</unitat_organica>
+    <unitat_organica>Serveis Territorials a Barcelona del Departament de Cultura</unitat_organica>
+    <unitat_organica>Serveis Territorials a Girona del Departament de Cultura</unitat_organica>
+    <unitat_organica>Direcció General de Cultura Popular i Associacionisme Cultural</unitat_organica>
+    <unitat_organica>Direcció General de Cooperació Cultural</unitat_organica>
+    <unitat_organica>Institut Català de les Empreses Culturals (ICEC)</unitat_organica>
+    <unitat_organica>Secretaria General de Cultura</unitat_organica>
+    <unitat_organica>Institució de les Lletres Catalanes</unitat_organica>
+    <unitat_organica>Serveis Territorials a Lleida del Departament de Cultura</unitat_organica>
+    <unitat_organica>Subdirecció General de Gestió Econòmica, Contractació i Patrimoni</unitat_organica>
+    <unitat_organica>Direcció General de Política Lingüística</unitat_organica>
+    <unitat_organica>Direcció General de Política Lingüísitica</unitat_organica>
+    <unitat_organica>Àrea de Literatura i Pensament (Institut Ramon Llull)</unitat_organica>
+    <unitat_organica>Serveis Territorials a Tarragona del Departament de Cultura</unitat_organica>
+    <unitat_organica>Serveis Territorials al Penedès del Departament de Cultura</unitat_organica>
+    <unitat_organica>Secretaria General</unitat_organica>
+    <unitat_organica>Serveis Territorials a les Terres de l'Ebre del Departament de Cultura</unitat_organica>
+    <unitat_organica>Consorci de l'Institut Ramon Llull</unitat_organica>
+    <unitat_organica>Secretaria de Política Lingüística</unitat_organica>
+    <unitat_organica>Teatre Nacional de Catalunya, SA</unitat_organica>
+    <unitat_organica>Director/a d'Administració i Finances del Teatre Nacional de Catalunya</unitat_organica>
+  </departament>
+  <departament nom="Departament de Drets Socials i Inclusió">
+    <unitat_organica>Departament de Drets Socials i Inclusió</unitat_organica>
+    <unitat_organica>Direcció General de Serveis Socials</unitat_organica>
+    <unitat_organica>Direcció General de Provisió de Serveis</unitat_organica>
+    <unitat_organica>Secretaria d'Afers Socials i Famílies</unitat_organica>
+    <unitat_organica>Institut Català de l'Acolliment i de l'Adopció</unitat_organica>
+    <unitat_organica>Secretaria d'Infància, Adolescència i Joventut</unitat_organica>
+    <unitat_organica>Secretaria General de Drets Socials i Inclusió</unitat_organica>
+  </departament>
+  <departament nom="Departament de la Presidència">
+    <unitat_organica>Departament de la Presidència</unitat_organica>
+    <unitat_organica>Oficina de Comunicació del Govern</unitat_organica>
+    <unitat_organica>Oficina de la Portaveu del Govern</unitat_organica>
+    <unitat_organica>Secretaria de Telecomunicacions i Transformació Digital</unitat_organica>
+    <unitat_organica>Secretaria de Mitjans de Comunicació</unitat_organica>
+    <unitat_organica>Secretaria General de l'Esport i de l'Activitat Física</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern a Lleida</unitat_organica>
+    <unitat_organica>Secretaria General de la Presidència</unitat_organica>
+    <unitat_organica>Secretaria de Difusió i Atenció Ciutadana</unitat_organica>
+    <unitat_organica>Oficina del Pla Pilot per Implementar la Renda Bàsica Universal</unitat_organica>
+    <unitat_organica>Consell Català de l'Esport</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Girona</unitat_organica>
+    <unitat_organica>President de la Generalitat</unitat_organica>
+    <unitat_organica>Secretaria de Mitjans de Comunicació i Difusió</unitat_organica>
+    <unitat_organica>Secretaria General de l'Esport</unitat_organica>
+    <unitat_organica>Oficina del President</unitat_organica>
+    <unitat_organica>Direcció General de Serveis Digitals i Experiència Ciutadana</unitat_organica>
+    <unitat_organica>Gabinet de Relacions Externes i Protocol</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern a les Terres de l'Ebre</unitat_organica>
+    <unitat_organica>Centre d'Alt Rendiment Esportiu de Sant Cugat del Vallès (CAR)</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Barcelona</unitat_organica>
+    <unitat_organica>Direcció General d'Afers Religiosos</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern a Barcelona</unitat_organica>
+    <unitat_organica>Serveis Territorials del Departament de la Presidència a Tarragona</unitat_organica>
+    <unitat_organica>Direcció General de Difusió</unitat_organica>
+    <unitat_organica>Secretaria de Comunicació del Govern i Mitjans de Comunicació</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Tarragona</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern a l'Alt Pirineu i Aran</unitat_organica>
+    <unitat_organica>Secretaria de Governs Locals i de Relacions amb l'Aran</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern al Penedès</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern a Girona</unitat_organica>
+    <unitat_organica>Direcció General de Mitjans de Comunicació</unitat_organica>
+    <unitat_organica>Institut Català de les Dones (ICD)</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern a Tarragona</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat a Madrid</unitat_organica>
+    <unitat_organica>Secretaria del Govern</unitat_organica>
+    <unitat_organica>Gabinet Jurídic de la Generalitat de Catalunya</unitat_organica>
+    <unitat_organica>Oficina del Govern</unitat_organica>
+    <unitat_organica>Direcció General de Coordinació Interdepartamental</unitat_organica>
+    <unitat_organica>Institut Nacional d'Educació Física de Catalunya (INEFC)</unitat_organica>
+    <unitat_organica>Serveis Territorials del Departament de la Presidència a la Catalunya Central</unitat_organica>
+    <unitat_organica>Gabinet de Comunicació del President</unitat_organica>
+    <unitat_organica>Serveis Territorials del Departament de la Presidència a Lleida</unitat_organica>
+    <unitat_organica>Secretaria general de l'Esport</unitat_organica>
+    <unitat_organica>Direcció de Serveis</unitat_organica>
+    <unitat_organica>Direcció General de Govern Obert</unitat_organica>
+    <unitat_organica>Institut d'Estudis de l'Autogovern</unitat_organica>
+    <unitat_organica>Direcció General de Bon Govern, Innovació i Qualitat Democràtiques</unitat_organica>
+    <unitat_organica>Secretaria de Telecomunicacions, Ciberseguretat i Societat Digital</unitat_organica>
+    <unitat_organica>Serveis Territorials del Departament de la Presidència a Barcelona</unitat_organica>
+    <unitat_organica>Oficina d'Estratègia i Comunicació del President i del Govern</unitat_organica>
+    <unitat_organica>Direcció General de Comunicació del Govern</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Agricultura, Ramaderia, Pesca i Alimentació">
+    <unitat_organica>Departament d'Agricultura, Ramaderia, Pesca i Alimentació</unitat_organica>
+    <unitat_organica>Direcció General d'Alimentació, Qualitat i Indústries Agroalimentàries</unitat_organica>
+    <unitat_organica>Institut Català de la Vinya i el Vi (INCAVI)</unitat_organica>
+    <unitat_organica>Secretaria General d'Agricultura, Ramaderia, Pesca i Alimentació</unitat_organica>
+    <unitat_organica>Direcció General de Desenvolupament Rural</unitat_organica>
+    <unitat_organica>Direcció General Agricultura i Ramaderia</unitat_organica>
+    <unitat_organica>Direcció General Desenvolupament Rural</unitat_organica>
+    <unitat_organica>Direcció General d'Agricultura i Ramaderia</unitat_organica>
+    <unitat_organica>Direcció General Pesca i Afers Marítims</unitat_organica>
+    <unitat_organica>Secretaria General</unitat_organica>
+    <unitat_organica>Direcció General Alimentació, Qualitat i Indústries Agroalimentàries</unitat_organica>
+    <unitat_organica>Direcció de Serveis</unitat_organica>
+    <unitat_organica>Direcció General de Boscos i Gestió del Medi</unitat_organica>
+    <unitat_organica>Secretaria d'Agenda Rural</unitat_organica>
+    <unitat_organica>Subdirecció General de Transferència i Innovació Agroalimentària</unitat_organica>
+    <unitat_organica>Direcció General Forests</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Acció Exterior i Govern Obert">
+    <unitat_organica>Departament d'Acció Exterior i Govern Obert</unitat_organica>
+    <unitat_organica>Direcció General de la Catalunya Exterior</unitat_organica>
+    <unitat_organica>Subdirecció General de Transparència i Dades Obertes</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Portugal</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Mèxic</unitat_organica>
+    <unitat_organica>Direcció General de Prospectiva i d'Innovació en l'Acció Exterior</unitat_organica>
+    <unitat_organica>Secretaria General d'Acció Exterior i Govern Obert</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Alemanya</unitat_organica>
+    <unitat_organica>Secretaria d'Acció Exterior del Govern</unitat_organica>
+    <unitat_organica>Direcció General de l'Acció Exterior</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Itàlia</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a França</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya als Estats Units d'Amèrica</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Suïssa</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya al Sud-est d'Europa</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya als Balcans</unitat_organica>
+    <unitat_organica>Direcció de Serveis</unitat_organica>
+    <unitat_organica>Patronat Catalunya Món-PCM DIPLOCAT</unitat_organica>
+    <unitat_organica>Direcció General de la Representació Institucional del Govern a l'Exterior i de la Unió Europea</unitat_organica>
+  </departament>
+  <departament nom="Departament de Territori i Sostenibilitat">
+    <unitat_organica>Departament de Territori i Sostenibilitat</unitat_organica>
+    <unitat_organica>Secretaria d'Infraestructures i Mobilitat</unitat_organica>
+    <unitat_organica>Secretaria de Medi Ambient i Sostenibilitat</unitat_organica>
+    <unitat_organica>Secretaria General de Territori i Sostenibilitat</unitat_organica>
+    <unitat_organica>Direcció general d'Ordenació del Territori i Urbanisme</unitat_organica>
+    <unitat_organica>Secretaria d'Hàbitat Urbà i Territori</unitat_organica>
+    <unitat_organica>Direcció General d'Infraestructures de Mobilitat</unitat_organica>
+    <unitat_organica>Direcció General d'Urbanisme</unitat_organica>
+    <unitat_organica>Secretaria de l'Agenda Urbana i Territori</unitat_organica>
+    <unitat_organica>Institut Cartogràfic i Geològic de Catalunya (ICGC)</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Afers i Relacions Institucionals i Exteriors i Transparència">
+    <unitat_organica>Departament d'Afers i Relacions Institucionals i Exteriors i Transparència</unitat_organica>
+    <unitat_organica>Direcció General de Transparència, Dades Obertes i Qualitat Democràtica</unitat_organica>
+    <unitat_organica>Secretaria de Transparència i Govern Obert</unitat_organica>
+    <unitat_organica>Memorial Democràtic</unitat_organica>
+    <unitat_organica>Direcció General d'Afers Multilaterals i Europeus</unitat_organica>
+    <unitat_organica>Direcció General de Contractació Pública</unitat_organica>
+    <unitat_organica>Secretaria d'Afers Exteriors i de la Unió Europea</unitat_organica>
+    <unitat_organica>Direcció General de Relacions Exteriors</unitat_organica>
+    <unitat_organica>Delegació del Govern de Catalunya a França i Suïssa</unitat_organica>
+    <unitat_organica>Secretaria General</unitat_organica>
+    <unitat_organica>Direcció General de Cooperació al Desenvolupament</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Acció Exterior, Relacions Institucionals i Transparència">
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Itàlia</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Mèxic</unitat_organica>
+    <unitat_organica>Departament d'Acció Exterior, Relacions Institucionals i Transparència</unitat_organica>
+    <unitat_organica>Secretaria de Transparència i Govern Obert</unitat_organica>
+    <unitat_organica>Secretaria d'Acció Exterior i de la Unió Europea</unitat_organica>
+    <unitat_organica>Direcció General d'Afers Globals</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya davant la Unió Europea</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Portugal</unitat_organica>
+    <unitat_organica>Direcció General d'Afers Europeus i Mediterranis</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya al Regne Unit i Irlanda</unitat_organica>
+    <unitat_organica>Direcció General d'Afers Multilaterals i Europeus</unitat_organica>
+    <unitat_organica>Direcció General de Transparència i Dades Obertes</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya als Balcans</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya als Estats Units d'Amèrica</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Alemanya</unitat_organica>
+    <unitat_organica>Direcció General de Relacions Institucionals i amb el Parlament</unitat_organica>
+    <unitat_organica>Direcció General de Participació Ciutadana</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Interior">
+    <unitat_organica>Departament d'Interior</unitat_organica>
+    <unitat_organica>Servei Català de Trànsit</unitat_organica>
+    <unitat_organica>Institut de Seguretat Pública de Catalunya</unitat_organica>
+    <unitat_organica>Secreta General</unitat_organica>
+    <unitat_organica>Serveis Territorials d'Interior a Tarragona</unitat_organica>
+    <unitat_organica>Direcció General de Prevenció, Extinció d'Incendis i Salvaments</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Economia i Hisenda">
+    <unitat_organica>Departament d'Economia i Hisenda</unitat_organica>
+    <unitat_organica>Institut d'Estadística de Catalunya (Idescat)</unitat_organica>
+    <unitat_organica>Secretaria General d'Economia i Hisenda</unitat_organica>
+    <unitat_organica>Direcció General de Contractació Pública</unitat_organica>
+    <unitat_organica>Direcció General de Fons Europeus i Ajuts d'Estat</unitat_organica>
+    <unitat_organica>Direcció General de Pressupostos</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Acció Climàtica, Alimentació i Agenda Rural">
+    <unitat_organica>Institut Català de la Vinya i el Vi (INCAVI)</unitat_organica>
+    <unitat_organica>Departament d'Acció Climàtica, Alimentació i Agenda Rural</unitat_organica>
+    <unitat_organica>Subdirecció General d'Activitats Cinegètiques i Pesca Continental</unitat_organica>
+    <unitat_organica>Direcció General d'Ecosistemes Forestals i Gestió del Medi</unitat_organica>
+    <unitat_organica>Direcció General d'Empreses Agroalimentàries, Qualitat i Gastronomia</unitat_organica>
+    <unitat_organica>Oficina Catalana del Canvi Climàtic</unitat_organica>
+    <unitat_organica>Secretaria d'Agenda Rural</unitat_organica>
+    <unitat_organica>Direcció General de Qualitat Ambiental i Canvi Climàtic</unitat_organica>
+    <unitat_organica>Secretaria d'Acció Climàtica</unitat_organica>
+    <unitat_organica>Gabinet Tècnic</unitat_organica>
+    <unitat_organica>Subdirecció General de Planificació Rural</unitat_organica>
+    <unitat_organica>Subdirecció General d'Infraestructures Rurals</unitat_organica>
+    <unitat_organica>Subdirecció General d'Intervenció i Qualificació Ambiental</unitat_organica>
+    <unitat_organica>Direcció General de Boscos i Gestió del Medi</unitat_organica>
+    <unitat_organica>Secretaria d'Alimentació</unitat_organica>
+    <unitat_organica>Subdirecció General d'Agricultura</unitat_organica>
+    <unitat_organica>Direcció General d'Agricultura i Ramaderia</unitat_organica>
+    <unitat_organica>Serveis Territorials d'Acció Climàtica, Alimentació i Agenda Rural a Barcelona</unitat_organica>
+    <unitat_organica>Direcció de Serveis</unitat_organica>
+    <unitat_organica>Direcció General de Polítiques Ambientals i Medi Natural</unitat_organica>
+    <unitat_organica>Secretaria General d'Acció Climàtica, Alimentació i Agenda Rural</unitat_organica>
+    <unitat_organica>Direcció General de Política Marítima i Pesca Sostenible</unitat_organica>
+    <unitat_organica>Subdirecció General de la Inspecció i Control Agroalimentari</unitat_organica>
+    <unitat_organica>Agència Catalana de l'Aigua (ACA)</unitat_organica>
+    <unitat_organica>Gerència de l'Agència Catalana de l'Aigua</unitat_organica>
+    <unitat_organica>Subdirecció General de Ramaderia</unitat_organica>
+    <unitat_organica>Subdirecció General de Gestió i Control d'Ajuts Directes</unitat_organica>
+  </departament>
+  <departament nom="Departament de Salut">
+    <unitat_organica>Departament de Salut</unitat_organica>
+    <unitat_organica>Secretaria d'Atenció Sanitària i Participació</unitat_organica>
+    <unitat_organica>Direcció de Serveis</unitat_organica>
+    <unitat_organica>Gerència de l'Àmbit Metropolità Sud. Regió Sanitària Barcelona</unitat_organica>
+    <unitat_organica>Direcció General de Recerca i Innovació en Salut</unitat_organica>
+    <unitat_organica>Direcció General de Professionals de la Salut</unitat_organica>
+    <unitat_organica>Secretaria de Salut Pública</unitat_organica>
+    <unitat_organica>Direcció General d'Ordenació Professional i Regulació Sanitària</unitat_organica>
+    <unitat_organica>Direcció General de Planificació en Salut</unitat_organica>
+    <unitat_organica>Secretaria General</unitat_organica>
+    <unitat_organica>Secretaria General de Salut</unitat_organica>
+    <unitat_organica>Direcció General d'Ordenació i Regulació Sanitària</unitat_organica>
+  </departament>
+  <departament nom="Departament de la Vicepresidència i de Polítiques Digitals i Territori">
+    <unitat_organica>Ferrocarrils de la Generalitat de Catalunya (FGC)</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a les Terres de l'Ebre</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Lleida</unitat_organica>
+    <unitat_organica>Departament de la Vicepresidència i de Polítiques Digitals i Territori</unitat_organica>
+    <unitat_organica>Direcció General de Ferrocarrils de la Generalitat de Catalunya</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Girona</unitat_organica>
+    <unitat_organica>Direcció de Desenvolupament de nous negocis, internacional i innovació</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Tarragona</unitat_organica>
+    <unitat_organica>Secretaria General de la Vicepresidència i de Polítiques Digitals i Territori</unitat_organica>
+    <unitat_organica>Secretaria de Territori i Mobilitat</unitat_organica>
+    <unitat_organica>Direcció General de Serveis Digitals i Experiència Ciutadana</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a l'Alt Pirineu i Aran</unitat_organica>
+    <unitat_organica>Direcció de Tecnologies de la Informació i les Comunicacions</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat al Penedès</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Empresa i Treball">
+    <unitat_organica>Direcció Executiva de l'Agència per a la Competitivitat de l'Empresa</unitat_organica>
+    <unitat_organica>Departament d'Empresa i Treball</unitat_organica>
+    <unitat_organica>Direcció General de Relacions Laborals, Treball Autònom, Seguretat i Salut Laboral</unitat_organica>
+    <unitat_organica>Secretaria General d'Empresa i Treball</unitat_organica>
+    <unitat_organica>Servei Públic d'Ocupació de Catalunya (SOC)</unitat_organica>
+    <unitat_organica>AVANÇSA - Empresa de Promoció i Localització Industrial de Catalunya, SA</unitat_organica>
+    <unitat_organica>Direcció General d'Indústria</unitat_organica>
+    <unitat_organica>Unitat de Negoci Internacional (ACCIÓ)</unitat_organica>
+    <unitat_organica>Secretaria de Treball</unitat_organica>
+    <unitat_organica>Responsable de Coordinació Directiva del SOC</unitat_organica>
+    <unitat_organica>Consorci de Comerç, Artesania i Moda de Catalunya (CCAM)</unitat_organica>
+    <unitat_organica>Direcció del Consorci per a la Formació Contínua de Catalunya</unitat_organica>
+    <unitat_organica>Unitat d'Inversió i Empreses Estrangeres (ACCIÓ)</unitat_organica>
+    <unitat_organica>Gabinet del Conseller d'Empresa i Treball</unitat_organica>
+    <unitat_organica>Direcció General de Comerç</unitat_organica>
+    <unitat_organica>Unitat d'Oficines Exteriors i Mercats (ACCIÓ)</unitat_organica>
+    <unitat_organica>Direcció General d'Economia Social i Solidària, el Tercer Sector i les Cooperatives</unitat_organica>
+    <unitat_organica>Unitat de Transformació Tecnològica i Disrupció (ACCIÓ)</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Ensenyament">
+    <unitat_organica>Departament d'Ensenyament</unitat_organica>
+    <unitat_organica>Direcció general d'Educació Secundària Obligatòria i Batxillerat</unitat_organica>
+    <unitat_organica>Consell Català de Formació Professional</unitat_organica>
+    <unitat_organica>Direcció General de Centres Públics</unitat_organica>
+    <unitat_organica>Secretaria General</unitat_organica>
+    <unitat_organica>Direcció General de Formació Professional Inicial i Ensenyaments de Règim Especial</unitat_organica>
+    <unitat_organica>Direcció General d'Atenció a la Família i Comunitat Educativa</unitat_organica>
+    <unitat_organica>Secretaria General d'Ensenyament</unitat_organica>
+    <unitat_organica>Direcció General d'Educació Secundària Obligatòria i Batxillerat</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Acció Exterior i Unió Europea">
+    <unitat_organica>Direcció General de la Catalunya Exterior</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya als Estats Units i al Canadà</unitat_organica>
+    <unitat_organica>Departament d'Acció Exterior i Unió Europea</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Mèxic i a l'Amèrica Central</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Andorra</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya als Països Nòrdics i als Països Bàltics</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya als Estats Andins</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya al Regne Unit i Irlanda</unitat_organica>
+    <unitat_organica>Direcció General de l'Acció Exterior</unitat_organica>
+    <unitat_organica>Secretaria General d'Acció Exterior i Unió Europea</unitat_organica>
+    <unitat_organica>Secretaria d'Acció Exterior del Govern</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a França</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya al Nord d'Àfrica</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Suïssa</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya davant la Unió Europea</unitat_organica>
+    <unitat_organica>Direcció General d'Afers de la Unió Europea</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya al Sud-est d'Europa</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Corea del Sud</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya al Japó</unitat_organica>
+    <unitat_organica>Agència Catalana de Cooperació al Desenvolupament</unitat_organica>
+    <unitat_organica>Delegació Adjunta del Govern de la Generalitat de Catalunya davant la Unió Europea</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Portugal</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a l'Àfrica Meridional</unitat_organica>
+    <unitat_organica>Gabinet de la Consellera d'Acció Exterior i Unió Europea</unitat_organica>
+  </departament>
+  <departament nom="Departament de la Vicepresidència i d'Economia i Hisenda">
+    <unitat_organica>Departament de la Vicepresidència i d'Economia i Hisenda</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Barcelona</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a les Terres de l'Ebre</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a la Catalunya Central</unitat_organica>
+    <unitat_organica>Secretaria d'Economia</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Girona</unitat_organica>
+    <unitat_organica>Direcció General d'Atenció Ciutadana</unitat_organica>
+    <unitat_organica>Direcció General de Tributs i Joc</unitat_organica>
+    <unitat_organica>Oficina del Vicepresident del Govern</unitat_organica>
+    <unitat_organica>Secretaria General</unitat_organica>
+    <unitat_organica>Direcció General de Política Financera, Assegurances i Tresor</unitat_organica>
+    <unitat_organica>Delegació Territorial del Govern de la Generalitat a Tarragona</unitat_organica>
+    <unitat_organica>Direcció General d'Anàlisi Econòmica</unitat_organica>
+    <unitat_organica>Direcció General de la Intervenció</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Educació">
+    <unitat_organica>Direcció General de Formació Professional Inicial i Ensenyaments de Règim Especial</unitat_organica>
+    <unitat_organica>Departament d'Educació</unitat_organica>
+    <unitat_organica>Direcció de Serveis</unitat_organica>
+    <unitat_organica>Secretaria General d'Educació</unitat_organica>
+    <unitat_organica>Direcció General de Professorat i Personal de Centres Públics</unitat_organica>
+    <unitat_organica>Direcció General de Centres Públics</unitat_organica>
+    <unitat_organica>Direcció General d'Atenció a la Família i Comunitat Educativa</unitat_organica>
+  </departament>
+  <departament nom="Institut Català de Finances (ICF)">
+    <unitat_organica>Institut Català de Finances (ICF)</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Igualtat i Feminismes">
+    <unitat_organica>Secretaria de Feminismes</unitat_organica>
+    <unitat_organica>Departament d'Igualtat i Feminismes</unitat_organica>
+    <unitat_organica>Direcció General de Cures, Organització del Temps i Equitat en els Treballs</unitat_organica>
+    <unitat_organica>Direcció General per a l'Erradicació de les Violències Masclistes</unitat_organica>
+    <unitat_organica>Direcció General de Migracions, Refugi i Antiracisme</unitat_organica>
+    <unitat_organica>Secretaria General d'Igualtat i Feminismes</unitat_organica>
+  </departament>
+  <departament nom="Departament de Recerca i Universitats">
+    <unitat_organica>Departament de Recerca i Universitats</unitat_organica>
+    <unitat_organica>Secretaria General del Consell Interuniversitari de Catalunya</unitat_organica>
+    <unitat_organica>Direcció General d'Impacte Territorial i Social del Coneixement</unitat_organica>
+    <unitat_organica>Direcció General de Societat del Coneixement, Transferència i Territori</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Unió Europea i Acció Exterior">
+    <unitat_organica>Gabinet del Conseller d'Unió Europea i Acció Exterior</unitat_organica>
+    <unitat_organica>Departament d'Unió Europea i Acció Exterior</unitat_organica>
+    <unitat_organica>Delegació del Govern de la Generalitat de Catalunya a Portugal</unitat_organica>
+    <unitat_organica>Secretaria d'Acció Exterior del Govern i de la Unió Europea</unitat_organica>
+    <unitat_organica>Secretaria General del Departament d'Unió Europea i Acció Exterior</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Empresa i Coneixement">
+    <unitat_organica>Agència per a la Competitivitat de l'Empresa (ACCIÓ)</unitat_organica>
+    <unitat_organica>Departament d'Empresa i Coneixement</unitat_organica>
+    <unitat_organica>Secretaria d'Universitats i Recerca</unitat_organica>
+    <unitat_organica>Direcció general de Recerca</unitat_organica>
+    <unitat_organica>Direcció general d'Indústria</unitat_organica>
+    <unitat_organica>Direcció general de Comerç</unitat_organica>
+    <unitat_organica>Direcció General d'Indústria</unitat_organica>
+    <unitat_organica>Secretaria d'Empresa i Competitivitat</unitat_organica>
+    <unitat_organica>Secretaria general</unitat_organica>
+    <unitat_organica>ACCIÓ - Agència per a la Competitivitat de l'Empresa</unitat_organica>
+    <unitat_organica>Secretaria General del Consell Interuniversitari de Catalunya</unitat_organica>
+  </departament>
+  <departament nom="Departament de Territori, Habitatge i Transició Ecològica">
+    <unitat_organica>Departament de Territori, Habitatge i Transició Ecològica</unitat_organica>
+    <unitat_organica>Secretaria de Transició Ecològica</unitat_organica>
+    <unitat_organica>Secretaria d'Habitatge</unitat_organica>
+    <unitat_organica>Secretaria de Mobilitat i Infraestructures</unitat_organica>
+    <unitat_organica>Energies Renovables Públiques de Catalunya, SAU (L'Energètica)</unitat_organica>
+    <unitat_organica>Direcció General d'Energies Renovables Públiques de Catalunya (L'Energètica)</unitat_organica>
+  </departament>
+  <departament nom="Departament de Drets Socials">
+    <unitat_organica>Direcció General de Serveis Socials</unitat_organica>
+    <unitat_organica>Direcció General de l'Autonomia Personal i la Discapacitat</unitat_organica>
+    <unitat_organica>Departament de Drets Socials</unitat_organica>
+    <unitat_organica>Serveis Territorials de Drets Socials a les Terres de l'Ebre</unitat_organica>
+    <unitat_organica>Institut Català de l'Acolliment i de l'Adopció</unitat_organica>
+    <unitat_organica>Secretaria d'Afers Socials i Famílies</unitat_organica>
+    <unitat_organica>Serveis Territorials de Drets Socials a Girona</unitat_organica>
+    <unitat_organica>Direcció General d'Acció Cívica i Comunitària</unitat_organica>
+    <unitat_organica>Direcció General de Provisió de Serveis</unitat_organica>
+    <unitat_organica>Secretaria General de Drets Socials</unitat_organica>
+  </departament>
+  <departament nom="Departament de Governació, Administracions Públiques i Habitatge">
+    <unitat_organica>Departament de Governació, Administracions Públiques i Habitatge</unitat_organica>
+    <unitat_organica>Secretaria General</unitat_organica>
+    <unitat_organica>Direcció General d'Afers Religiosos</unitat_organica>
+    <unitat_organica>Secretaria d'Habitatge i Millora Urbana</unitat_organica>
+    <unitat_organica>Secretaria d'Administració i Funció Pública</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Educació i Formació Professional">
+    <unitat_organica>Departament d'Educació i Formació Professional</unitat_organica>
+    <unitat_organica>Gabinet de la Consellera d'Educació i Formació Professional</unitat_organica>
+    <unitat_organica>Direcció General de Professorat i Personal de Centres Públics</unitat_organica>
+    <unitat_organica>Direcció General de Centres Públics</unitat_organica>
+    <unitat_organica>Direcció General de l'Alumnat</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Igualtat i Feminisme">
+    <unitat_organica>Departament d'Igualtat i Feminisme</unitat_organica>
+    <unitat_organica>Gabinet de la Consellera d'Igualtat i Feminisme</unitat_organica>
+    <unitat_organica>Secretaria d'Igualtats</unitat_organica>
+    <unitat_organica>Secretaria de Feminismes</unitat_organica>
+    <unitat_organica>Direcció General de Polítiques Públiques LGBTI+</unitat_organica>
+    <unitat_organica>Direcció General per a l'Erradicació de les Violències Masclistes</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Economia i Finances">
+    <unitat_organica>Departament d'Economia i Finances</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Esports">
+    <unitat_organica>Secretaria General d'Esports</unitat_organica>
+    <unitat_organica>Departament d'Esports</unitat_organica>
+  </departament>
+  <departament nom="Departament de Política Lingüística">
+    <unitat_organica>Departament de Política Lingüística</unitat_organica>
+  </departament>
+  <departament nom="Departament d'Interior i Seguretat Pública">
+    <unitat_organica>Departament d'Interior i Seguretat Pública</unitat_organica>
+  </departament>
+</Unitats_Organiques>
+<!--Fi de la llista-->

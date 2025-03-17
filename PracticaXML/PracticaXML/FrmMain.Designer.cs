@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btDepartaments = new System.Windows.Forms.Button();
+            this.btUnitat = new System.Windows.Forms.Button();
             this.btObsequis = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -61,6 +61,7 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dlg = new System.Windows.Forms.SaveFileDialog();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -70,8 +71,8 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.button5);
-            this.groupBox4.Controls.Add(this.button4);
+            this.groupBox4.Controls.Add(this.btDepartaments);
+            this.groupBox4.Controls.Add(this.btUnitat);
             this.groupBox4.Controls.Add(this.btObsequis);
             this.groupBox4.Location = new System.Drawing.Point(575, 633);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -82,31 +83,33 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Crear arxius xml";
             // 
-            // button5
+            // btDepartaments
             // 
-            this.button5.BackColor = System.Drawing.Color.Yellow;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.Location = new System.Drawing.Point(276, 24);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(185, 45);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Municipis";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btDepartaments.BackColor = System.Drawing.Color.Yellow;
+            this.btDepartaments.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDepartaments.ForeColor = System.Drawing.Color.Black;
+            this.btDepartaments.Location = new System.Drawing.Point(276, 24);
+            this.btDepartaments.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btDepartaments.Name = "btDepartaments";
+            this.btDepartaments.Size = new System.Drawing.Size(185, 45);
+            this.btDepartaments.TabIndex = 4;
+            this.btDepartaments.Text = "Departaments";
+            this.btDepartaments.UseVisualStyleBackColor = false;
+            this.btDepartaments.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button4
+            // btUnitat
             // 
-            this.button4.BackColor = System.Drawing.Color.Lime;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(487, 24);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(178, 45);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Recollida";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btUnitat.BackColor = System.Drawing.Color.Lime;
+            this.btUnitat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btUnitat.ForeColor = System.Drawing.Color.Black;
+            this.btUnitat.Location = new System.Drawing.Point(487, 24);
+            this.btUnitat.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btUnitat.Name = "btUnitat";
+            this.btUnitat.Size = new System.Drawing.Size(178, 45);
+            this.btUnitat.TabIndex = 3;
+            this.btUnitat.Text = "Unitats Organiques";
+            this.btUnitat.UseVisualStyleBackColor = false;
+            this.btUnitat.Click += new System.EventHandler(this.btUnitat_Click);
             // 
             // btObsequis
             // 
@@ -120,6 +123,7 @@
             this.btObsequis.TabIndex = 2;
             this.btObsequis.Text = "Obsequis";
             this.btObsequis.UseVisualStyleBackColor = false;
+            this.btObsequis.Click += new System.EventHandler(this.btObsequis_Click);
             // 
             // button2
             // 
@@ -349,10 +353,10 @@
             // 
             // dgvObsequis
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSlateBlue;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.dgvObsequis.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.DarkSlateBlue;
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.dgvObsequis.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvObsequis.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvObsequis.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvObsequis.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
@@ -365,14 +369,14 @@
             this.Column1,
             this.Column2,
             this.Column3});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvObsequis.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvObsequis.DefaultCellStyle = dataGridViewCellStyle4;
             this.dgvObsequis.Location = new System.Drawing.Point(575, 233);
             this.dgvObsequis.Margin = new System.Windows.Forms.Padding(2);
             this.dgvObsequis.Name = "dgvObsequis";
@@ -382,7 +386,6 @@
             this.dgvObsequis.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvObsequis.Size = new System.Drawing.Size(745, 384);
             this.dgvObsequis.TabIndex = 22;
-            this.dgvObsequis.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClubs_CellContentClick);
             // 
             // Departament
             // 
@@ -417,6 +420,11 @@
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             // 
+            // dlg
+            // 
+            this.dlg.Filter = "(*.xml)|*.xml\"";
+            this.dlg.Title = "Guardar arxiu XML";
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
@@ -447,8 +455,8 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btDepartaments;
+        private System.Windows.Forms.Button btUnitat;
         private System.Windows.Forms.Button btObsequis;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox3;
@@ -477,6 +485,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.SaveFileDialog dlg;
     }
 }
 

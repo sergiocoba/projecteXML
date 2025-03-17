@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,18 +37,14 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FrmMain.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.Designer.cs",
               "RelativeDocumentMoniker": "PracticaXML\\FrmMain.Designer.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.Designer.cs*",
-              "RelativeToolTip": "PracticaXML\\FrmMain.Designer.cs*",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAwIkAAAAWAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.Designer.cs",
+              "RelativeToolTip": "PracticaXML\\FrmMain.Designer.cs",
+              "ViewState": "AgIAAG8BAAAAAAAAAAASwIQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T21:57:33.945Z",
               "EditorCaption": ""
@@ -59,9 +55,9 @@
               "Title": "FrmMain.cs",
               "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs",
               "RelativeDocumentMoniker": "PracticaXML\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs*",
-              "RelativeToolTip": "PracticaXML\\FrmMain.cs*",
-              "ViewState": "AgIAAD4BAAAAAAAAAAArwE8BAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs",
+              "RelativeToolTip": "PracticaXML\\FrmMain.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAiwKIBAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T15:29:45.638Z",
               "EditorCaption": ""
@@ -72,8 +68,8 @@
               "Title": "FrmMain.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs",
               "RelativeDocumentMoniker": "PracticaXML\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "PracticaXML\\FrmMain.cs [Dise\u00F1o]*",
+              "ToolTip": "C:\\Users\\Sergio\\Documents\\GitHub\\projecteXML\\PracticaXML\\PracticaXML\\FrmMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PracticaXML\\FrmMain.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T15:28:29.812Z",
               "EditorCaption": " [Dise\u00F1o]"
